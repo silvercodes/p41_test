@@ -7,7 +7,8 @@ private:
 	int age{18};
 
 public:
-	User(const std::string& email):
-		email{email}
+	User(const std::string& email, int age):
+		email{email},
+		age{age}
 	{}
 };
